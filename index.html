@@ -1,66 +1,101 @@
-
-
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta charset="UTF-8" />
-    <title>Suffah - IT Blogging</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Ghafoor - Professional CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #FF0000; /* Red background color */
-            color: #FFFFFF; /* White text color */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            background-color: #f8f9fa;
         }
-        .header {
-            text-align: center;
+        .container {
+            max-width: 900px;
+            background: #fff;
             padding: 20px;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .blog-post {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background for posts */
             border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        .contact-info {
             margin-bottom: 20px;
         }
-        .footer {
-            text-align: center;
-            padding: 20px;
+        .contact-info p {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="header">
-            <h1>Welcome to Suffah - IT Blogging</h1>
-            <p>Your source for the latest IT news, tutorials, and insights.</p>
+    <div class="container">
+        <h1 class="text-center">Abdul Ghafoor</h1>
+        <p class="text-center">Mathematics Teacher | PHP Programmer | Database Administrator</p>
+        
+        <div class="contact-info text-center">
+            <p><strong>Address:</strong> Ward No 14/C, Muhallah Kut, Kot Addu, Distt. Muzaffargarh, Pakistan</p>
+            <p><strong>Phone:</strong> +92 3201708308 | +92 3156000481</p>
+            <p><strong>Email:</strong> ag.kotaddu@gmail.com | ag.mairi.darsgah@gmail.com</p>
         </div>
-
-        <div class="blog-post">
-            <h2>Blog Post Title 1</h2>
-            <p>This is your first blog post. You can write about any IT-related topic that interests you.</p>
-        </div>
-
-        <div class="blog-post">
-            <h2>Blog Post Title 2</h2>
-            <p>Here's another blog post. Feel free to share your knowledge and experiences with the IT community.</p>
-        </div>
-
-        <!-- Add more blog posts as needed -->
-
-        <div class="footer">
-            <p>&copy; 2023 Suffah - IT Blogging</p>
-        </div>
-    </form>
+        
+        <h2>Education</h2>
+        <ul>
+            <li><strong>M.S. (Information Technology)</strong> - Preston Institute of Management Sciences and Technology, Karachi (2002)</li>
+            <li><strong>B.Com</strong> - Govt. College of Commerce, Multan (2000)</li>
+        </ul>
+        
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>Meri Darsgah (Kot Addu)</strong> (2003-2005, 2011-2023)</li>
+            <ul>
+                <li>Mathematics Teacher</li>
+                <li>PHP Programmer with MySQL</li>
+                <li>Database Administrator</li>
+            </ul>
+            <li><strong>Kurimoto, Ltd. & Taisei Corporation</strong> (2006-2010)</li>
+            <ul>
+                <li>Admin Manager - Supervised administrative matters</li>
+                <li>Public Relations Officer - Liaison between local & Japanese staff</li>
+                <li>Accounts Manager - Managed day-to-day accounts</li>
+                <li>Managed transportation, international travel, accommodation, and security for Japanese staff</li>
+            </ul>
+            <li><strong>Descon Engineering Ltd.</strong> (2005-2006)</li>
+            <ul>
+                <li>Assistant Officer - Managed store inventory & coordinated between departments</li>
+            </ul>
+        </ul>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>Expert in HTML, CSS, PHP (Programming)</li>
+            <li>Expert in MS Office & MS Windows</li>
+        </ul>
+        
+        <h2>Languages</h2>
+        <ul>
+            <li>English (Expert)</li>
+            <li>Urdu (Expert)</li>
+        </ul>
+        
+        <h2>Interests</h2>
+        <ul>
+            <li>Cricket</li>
+            <li>Internet</li>
+        </ul>
+        
+        <h2>Awards</h2>
+        <ul>
+            <li>Runner-up Cricket Team (Inter-District School Sports Tournament, Dera Ghazi Khan, 1995-96)</li>
+            <li>Winner Cricket Team (Inter-District School Sports Tournament, Muzaffargarh & Kot Addu, 1995-96)</li>
+        </ul>
+        
+        <h2>References</h2>
+        <ul>
+            <li><strong>Mr. Israr Gul Durrani</strong> - Principal, Meri Darsgah, Kot Addu (Email: mairidarsgahkotaddu@gmail.com | Tel: +92662550203)</li>
+            <li><strong>Dr. Muhammad Zubair Sumbal</strong> - MBBS, Ultrasound Specialist, Ali Hospital, Kot Addu (Mob: +923006269202)</li>
+            <li><strong>Mr. Toshihide Kimura</strong> - Manager, Engineering HQ Design Section No. 2, IHI Infrastructure System Co., Ltd., Japan (Email: toshihide_kimura@iis.ihi.co.jp | Tel: +81-72-223-0802)</li>
+        </ul>
+    </div>
 </body>
 </html>
